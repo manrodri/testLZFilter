@@ -1,0 +1,29 @@
+version: 0.2
+        
+phases:
+  install:
+    
+    commands:
+      - echo "running the install phase"
+    
+  pre_build:
+   
+    commands:
+      - echo "running the pre-build phase"
+
+  build:
+    
+    commands:
+       - echo "running the build phase"
+      
+   
+  post_build:
+    
+    commands:
+     - echo "running the build phase"
+    
+artifacts:
+  files:
+    - '**/*' 
+   
+ 
